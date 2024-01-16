@@ -19,7 +19,7 @@ jobs:
 
       - name: Build with gradle!
         working-directory: .
-        run:
+        run: |
           chmod +x gradlew
           ./gradlew build -x test
 
